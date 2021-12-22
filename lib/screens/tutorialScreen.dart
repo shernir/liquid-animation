@@ -14,12 +14,12 @@ class ItemData {
 }
 
 /// Example of LiquidSwipe with itemBuilder
-class WithBuilder extends StatefulWidget {
+class TutorialScreen extends StatefulWidget {
   @override
-  _WithBuilder createState() => _WithBuilder();
+  _TutorialScreen createState() => _TutorialScreen();
 }
 
-class _WithBuilder extends State<WithBuilder> {
+class _TutorialScreen extends State<TutorialScreen> {
   int page = 0;
   late LiquidController liquidController;
   late UpdateType updateType;
